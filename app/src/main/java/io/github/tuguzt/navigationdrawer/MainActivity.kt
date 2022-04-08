@@ -37,7 +37,12 @@ class MainActivity : AppCompatActivity() {
         }
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
-        val destinationIds = setOf(R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow)
+        val destinationIds = setOf(
+            R.id.nav_home,
+            R.id.nav_gallery,
+            R.id.nav_slideshow,
+            R.id.nav_mainActivity2,
+        )
         appBarConfiguration = AppBarConfiguration(destinationIds, binding.drawerLayout)
         setupActionBarWithNavController(navController, appBarConfiguration)
         binding.navView.setupWithNavController(navController)

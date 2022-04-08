@@ -24,4 +24,10 @@
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
 
+    <activity
+        android:id="@+id/nav_mainActivity2"
+        android:name="io.github.tuguzt.navigationdrawer.MainActivity2"
+        android:label="activity_main2"
+        tools:layout="@layout/activity_main2" />
+
 </navigation>
